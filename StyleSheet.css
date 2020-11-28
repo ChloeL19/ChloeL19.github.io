@@ -65,7 +65,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 72px;
     line-height: 56px;
 
 }
@@ -75,8 +75,8 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 36px;
+    line-height: 37px;
 }
 .center {
     display: block;
@@ -105,5 +105,6 @@ body {
 #Timeline {
     background-color: #DE8582;
     height: 166vh;
-    overflow: hidden
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
