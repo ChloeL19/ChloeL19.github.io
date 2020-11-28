@@ -1,154 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.min.css" rel="stylesheet">
-  <style type="text/css">
-    html,
-    body,
-    header,
-    .view {
-      height: 100%;
-    }
-
-    @media (max-width: 559px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 1000px;
-      }
-    }
-
-    @media (min-width: 560px) and (max-width: 740px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 700px;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 600px;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-      }
-    }
-
-  </style>
+<head> 
+    <meta charset="utf-8">
+    <title>Sara Landing Page</title>
+    <link href="StyleSheet.css" rel="stylesheet">
 </head>
+ 
+<!-- Navigation Bar and Menu -->
+<div id=NavBarOuter>
+    <div id=NavBarInner>
+        <div class=menu> 
+            <a href="#Home">Home</a>
+            <a href="#Timeline">Timeline</a>
+            <a href="about.html">About</a>
+            <a href="team.html">Team</a>
+            <a href="study.html">Study</a>
+        </div>
+    </div> 
+</div>
 
 <body>
-
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <div class="container">
-
-      <!-- Brand -->
-      <a class="navbar-brand" href="https://chloel19.github.io/" target="_blank">
-        <strong>Green Box Team</strong>
-      </a>
-
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
+    <!-- Home Page -->
+    <div id=Home> 
+        <div class=twoFatCols> 
+            <div> 
+                <h1 id=saraTitle>SARA</h1>
+                <p id=saraBlurb>An app designed to help Harvard Undergraduates' mental health. [Insert more here]</p>
+            </div>
+            <div> 
+                <img class="center" src="./images/Sara_girl-removebg02.png"> 
+                <!-- <img class="bottomLeft" src="./images/fishbowl01-removebg.png"> -->
+            </div>
+        </div>
     </div>
-  </nav>
-  <!-- Navbar -->
 
-  <!-- Full Page Intro -->
-  <div class="view">
+    <div class=spacer></div>
 
-    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
-      muted loop>
-      <source src="backgroundVideo03.mp4" type="video/mp4">
-    </video>
-
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-      <!-- Content -->
-      <div class="text-center white-text mx-5 wow fadeIn">
-
-        <h1 class="display-4 mb-4">
-          <strong>Green Box</strong>
-        </h1>
-
-        <h4 class="mb-4">
-          <strong>Converting school campuses into sustainable farms.</strong>
-        </h4>
-
-        <h4 class="mb-4 d-none d-md-block">
-          <strong>Converting students into green entrepreneurs.</strong>
-        </h4>
-
-        <a target="_blank" href="https://drive.google.com/drive/folders/1CrQWNLak9jHqHiLRkraWZDe97Mm7Tzj7?usp=sharing" class="btn btn-outline-white btn-lg">See past catering events
-        </a>
-      </div>
-      <!-- Content -->
-
+    <!-- Timeline -->
+    <div id=Timeline>
+        <h1 class=pageTitle style="color:#FFEBCC">Timeline</h1>
+        <div class=pageBody>
+            <div class=twitterFeed>
+                <a class="twitter-timeline" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
     </div>
-    <!-- Mask & flexbox options-->
 
-  </div>
-  <!-- Full Page Intro -->
-
-  <!--Footer-->
-  <footer class="page-footer text-center font-small wow fadeIn">
-
-    <!--Copyright-->
-    <div class="footer-copyright py-3">
-      © 2019 Copyright:
-      <a href="file:///Users/cloughridge19/Desktop/GreenBoxLandingPage/GreenBoxLandingPage/index.html" target="_blank"> Green Box Team </a>
-    </div>
-    <!--/.Copyright-->
-
-  </footer>
-  <!--/.Footer-->
-
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Initializations -->
-  <script type="text/javascript">
-    // Animations initialization
-    new WOW().init();
-
-  </script>
-
-  
+    <!-- The following will be external pages -->
+    <!-- About Page -->
+    <!-- Sign Up for the Study -->
 </body>
-
 </html>
